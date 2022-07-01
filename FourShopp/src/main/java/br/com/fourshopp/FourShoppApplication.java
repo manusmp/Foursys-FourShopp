@@ -97,7 +97,7 @@ public class FourShoppApplication implements CommandLineRunner {
 
                 Produto foundById = produtoService.findById(produto);
                 if (quantidade > foundById.getQuantidade()) {
-                    //System.out.println("Quantidade não disponível no estoque");
+                    System.out.println("Quantidade não disponível no estoque");
                 } else {
                     produtoService.diminuirEstoque(quantidade, foundById);
 
