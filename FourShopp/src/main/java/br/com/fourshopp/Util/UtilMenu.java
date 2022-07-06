@@ -82,6 +82,7 @@ public class UtilMenu {
 
         System.out.println("Insira a rua: ");
         String rua = scanner.next();
+        scanner.nextLine();
 
         System.out.println("Insira o número: ");
         int numero = scanner.nextInt();
@@ -241,6 +242,7 @@ public class UtilMenu {
 
         System.out.println("Insira a rua: ");
         String rua = scanner.next();
+        scanner.nextLine();
 
         System.out.println("Insira o número: ");
         int numero = scanner.nextInt();
@@ -330,6 +332,7 @@ public class UtilMenu {
 
         System.out.println("Insira a rua: ");
         String rua = scanner.next();
+        scanner.nextLine();
 
         System.out.println("Insira o número: ");
         int numero = scanner.nextInt();
@@ -426,6 +429,7 @@ public class UtilMenu {
 
         System.out.println("Insira a rua: ");
         String rua = scanner.next();
+        scanner.nextLine();
 
         System.out.println("Insira o número: ");
         int numero = scanner.nextInt();
